@@ -2,7 +2,7 @@
   "name": "login-system",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,5 +17,20 @@
   "bugs": {
     "url": "https://github.com/Igiraneza1/Login-System/issues"
   },
-  "homepage": "https://github.com/Igiraneza1/Login-System#readme"
+  "homepage": "https://github.com/Igiraneza1/Login-System#readme",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.2",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "sequelize-cli": "^6.6.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "nodemon": "^3.1.10"
+  }
 }
